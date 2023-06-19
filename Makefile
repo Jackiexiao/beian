@@ -1,7 +1,7 @@
-export WEBSITE_NAME="深度学习演示网站"
-export ICP="粤ICP备2022122081号-1"
+export WEBSITE_NAME=深度学习演示网站
+export ICP=粤ICP备2022122081号-1
 
 install:
-	pip install -r requirements.txt
+	python3 -m pip install -r requirements.txt
 run:
-	streamlit run app.py
+	python3 -m streamlit run app.py --server.port 80

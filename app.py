@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
     with column_2:
         st.title("表格Chart")
-        st.line_chart(filtered_df["value"])
+        st.line_chart(filtered_df["values"])
 
     st.markdown(
         download_csv("Filtered Data Frame", filtered_df), unsafe_allow_html=True
