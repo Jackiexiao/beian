@@ -79,5 +79,5 @@ if __name__ == "__main__":
         download_csv("Filtered Data Frame", filtered_df), unsafe_allow_html=True
     )
     layout(
-        link("https://www.beian.gov.cn", icp),
+        link("https://beian.miit.gov.cn/", icp),
     )
