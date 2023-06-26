@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 from streamlit.components.v1 import html
 from htbuilder import (
@@ -144,6 +145,10 @@ def footer():
     ]
     layout(*myargs)
 
+def icp_footer(icp_name):
+    layout(
+        link("https://beian.miit.gov.cn/", icp_name),
+    )
 
 if __name__ == "__main__":
     footer()
